@@ -10,6 +10,7 @@ const BACKGROUND = css `
 
 const HEADER = css `
   max-width: 960px;
+  font-family: 'Noto Sans JP', sans-serif;
   margin: 0 auto;
   display: flex;
   justify-content: flex-start;
