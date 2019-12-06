@@ -5,3 +5,4 @@
  */
 
 // You can delete this file if you're not using it
+import "./src/pages/common/styles/global.scss"
