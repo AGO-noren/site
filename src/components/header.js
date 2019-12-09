@@ -21,7 +21,7 @@ const HEADERLOGO = css `
   padding: 1.45rem 1.0875rem;
   margin: 0;
   a {
-    color: #5c5c5c;
+    color: #2c2c2c;
     text-decoration: none;
   }
 }
@@ -73,14 +73,14 @@ const Header = ({ siteTitle }) => (
     <div css={ HEADER }>
       <h1 css={HEADERLOGO}>
         <Link to="/">
-          {siteTitle}
+          { siteTitle }
         </Link>
       </h1>
       <nav css={ GLOBALNAV }>
         <ul>
-          <li><Link to="/page-2/">about</Link></li>
-          <li><Link to="/page-2/">works</Link></li>
-          <li><Link to="/page-2/">contact</Link></li>
+          <li><Link to="/about/">about</Link></li>
+          <li><Link to="/works/">works</Link></li>
+          <li><Link to="/contact/">contact</Link></li>
         </ul>
       </nav>
     </div>

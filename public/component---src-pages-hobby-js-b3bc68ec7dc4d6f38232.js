@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{"2L+z":function(t,b,n){"use strict";n.r(b);n("q1tI");var a=n("Bl7J"),e=n("vrFN"),c=n("qKvR");b.default=function(){return Object(c.a)(a.a,null,Object(c.a)(e.a,{title:"hobby"}),Object(c.a)("h1",null,"hobby page"),Object(c.a)("p",null,"hobbyですよ"))}}}]);
+//# sourceMappingURL=component---src-pages-hobby-js-b3bc68ec7dc4d6f38232.js.map

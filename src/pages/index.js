@@ -1,16 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { css } from '@emotion/core'
+import { css } from "@emotion/core"
+import { Link } from "gatsby"
 
 const H1 = css `
-  color: blue;
-  &:hover {
-    color: pink;
-    transition: color 0.5s;
-  }
+  color: #2c2c2c;
 `
 
 const TOPHERO = css `
@@ -22,6 +17,7 @@ const TOPHERO = css `
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
   }
 `
 
@@ -30,16 +26,15 @@ const HEROIMAGE1 = css `
   width: 100%;
   list-style: none;
   top: 0;
-  right: 420px;
-  transition: right 1.0s ease-in-out;
-  z-index: 0;
-  overflow: visible;
+  right: 460px;
+  transition: right 0.1s ease-in-out;
 
   &:hover {
     z-index: 2;
     right: 0;
-    transition: right 1.0s ease-in-out;
+    transition: right 0.5s ease-in-out;
   }
+
 `
 
 const HEROIMAGE2 = css `
@@ -47,14 +42,13 @@ const HEROIMAGE2 = css `
   width: 100%;
   list-style: none;
   top: 0;
-  left: 420px;
-  transition: left 1.0s ease-in-out;
-  z-index: 0;
+  left: 460px;
+  transition: left 0.1s ease-in-out;
 
   &:hover {
     z-index: 2;
     left: 0;
-    transition: left 1.0s ease-in-out;
+    transition: left 0.5s ease-in-out;
   }
 
   &::after {
@@ -71,11 +65,10 @@ const IndexPage = () => (
     <h1 css={H1}>テストタイトルテストタイトル</h1>
     <div css={TOPHERO}>
       <ul>
-        <li css={HEROIMAGE1}><img src="https://placehold.jp/24/cc99cc/993333/920x350.png" alt=""/></li>
-        <li css={HEROIMAGE2}><img src="https://placehold.jp/24/cc9999/993333/920x350.png" alt=""/></li>
+        <li css={HEROIMAGE1}><Link to="/hobby/"><img src="https://placehold.jp/24/cc9999/993333/920x350.png" alt=""/></Link></li>
+        <li css={HEROIMAGE2}><Link to="/works/"><img src="https://placehold.jp/24/cc99cc/993333/920x350.png" alt=""/></Link></li>
       </ul>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 

@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{"2RVH":function(t,n,a){"use strict";a.r(n);a("q1tI");var e=a("Bl7J"),c=a("vrFN"),l=a("qKvR");n.default=function(){return Object(l.a)(e.a,null,Object(l.a)(c.a,{title:"works"}),Object(l.a)("h1",null,"works page"),Object(l.a)("p",null,"worksですよ"))}}}]);
+//# sourceMappingURL=component---src-pages-works-js-86d6aa243d37c2c1e94e.js.map
